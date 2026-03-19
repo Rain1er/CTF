@@ -1,0 +1,7 @@
+services:
+  redis-ctf-fix:
+    image: redis_ctf_fix:1.0
+    container_name: redis-ctf-fix
+    ports:
+      - "0:7681"
+    restart: unless-stopped
